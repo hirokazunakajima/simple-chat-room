@@ -1,0 +1,110 @@
+body{
+    padding: 30px;
+    font-size: 18px;
+    font-family: helvetica, arial, sans-serif;
+}
+
+
+/*********************
+    Login page styling
+**********************/
+
+.login-wrapper{
+    height: 150px;
+    width: 200px;
+    margin-top: -75px;
+    margin-left: -100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #aaa;
+    padding: 10px;
+    box-sizing: border-box;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+
+}
+
+
+.login-wrapper input[type=text]{
+    box-sizing: border-box;
+    width: 100%;
+}
+.login-wrapper input[type=submit]{
+    margin-top: 5px;
+    width: 100%;
+}
+.login-title{
+   text-align: center;
+}
+
+
+/*******************
+    Chatbox styling
+********************/
+
+.wrapper{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+}
+
+#messages {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto 20px auto;
+    overflow: scroll;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#msgBox {
+    display: block;
+    width: 395px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.message{
+    border-bottom: 1px dotted #ccc;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+input[type=button]{
+    display: block;
+    margin: 10px auto 0 auto;
+    width: 100px;
+}
+
+.logoutBtn{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #333;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 16px;
+    border-radius: 2px;
+    line-height: 1.5;
+    float: right;
+}
+.logoutBtn:active{
+    margin-top: 1px;
+    background: #000;
+}
